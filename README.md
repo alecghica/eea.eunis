@@ -9,7 +9,7 @@ You can build the application and run the unit tests with an embedded database. 
 
     mvn -Denv=unittest test
 
-If you encounter problems, take a look at web/unittest.properties. This configuration is the one that is used by the Continuous Integration.
+If you encounter problems, take a look at web/unittest.properties. This configuration is the one that is used by the Continuous Integration. 
 
 If you want your own database, then install MySQL, create a database and a user with full rights to the database. Then you copy web/unittest.propertiesto web/local.properties and modify the values. You should run the unit tests on the database to ensure your database connection is properly configured.
 
